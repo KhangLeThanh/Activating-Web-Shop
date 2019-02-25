@@ -1,0 +1,35 @@
+.wrapper-login-form{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .form-inline{
+    justify-content: flex-end;
+  }
+  .form-group{
+    margin-right: 3%;
+  }
+  .wrapper-login{
+    padding-top: 5%;
+  }
+  .wrap-login{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+  }
+  .wrap-login p{
+    text-align: left;
+  }
+  .wrap-login input{
+    width: 100%;
+  }
+  .wraper-button-login .btn{
+    width:100%;
+  }
+  .wrapper-button {
+    display: block;
+    margin-top: 15px;
+  }
+  .wrapper-button .btn{
+    width:100%;
+  }

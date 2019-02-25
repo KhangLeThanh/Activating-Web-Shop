@@ -1,0 +1,80 @@
+h1,h2,h3{
+    font-family: 'Montserrat', Arial;
+    font-weight: 500;
+    color: #000;
+  }
+label,p,li{
+  font-family: 'Montserrat', Arial;
+  font-weight: 400;
+  color: #000;
+}
+a,a:hover{
+  color: #FF530D;
+  font-weight: 600;
+}
+.btn-primary:disabled,.btn-primary:disabled:hover{
+  background-color: #FF530D;
+  border: 1px solid #FF530D;
+  color: #fff;
+}
+.btn{
+  font-family: 'Montserrat', Arial;
+  font-weight: 600;
+  background-color: #FF530D;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid #FF530D;  
+  border-color:#FF530D;  
+}
+.btn:hover{
+  background-color:transparent;
+  color: #FF530D;
+  border-color:#FF530D;  
+
+}
+table{
+  text-align:left;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+.delete-button {
+  background-color: #BB3B4C;
+  border: #BB3B4C;
+}
+.delete-button:hover {
+  background-color: #da1932;
+  border: #da1932;
+  color: #fff
+}
+.info-board{
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.info-board p{
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.title-info{
+  font-weight: 600;
+}
+ol.wrapper-project {
+    list-style-type: none;
+    min-height: 1px;
+    overflow: hidden;
+    padding-left: 0px;
+}
+ol.wrapper-project li {
+    float: left;
+    width: 48%;
+    margin-left: 5px;
+    padding: 20px 20px;
+    text-align: left;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+}

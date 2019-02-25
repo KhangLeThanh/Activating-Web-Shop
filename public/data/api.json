@@ -1,0 +1,55 @@
+{
+    "project_list": [
+        {
+            "project_id": "1",
+            "project_name": "First Project",
+            "start_date": "2017-12-31",
+            "end_date": "2018-12-31",
+            "values":[   
+                {
+                    "date": "2018-01-01",
+                    "count": "4"
+                },
+                {
+                    "date": "2018-03-01",
+                    "count": "3"
+                },
+                {
+                    "date": "2018-10-01",
+                    "count": "2"
+                },
+                {
+                    "date": "2018-12-01",
+                    "count": "1"
+                }
+            ]
+          
+        },
+        {
+            "project_id": "2",
+            "project_name": "Second Project",
+            "start_date": "2017-12-31",
+            "end_date": "2018-12-31",
+            "values":[   
+                {
+                    "date": "2018-01-03",
+                    "count": "2"
+                },
+                {
+                    "date": "2018-06-01",
+                    "count": "4"
+                },
+                {
+                    "date": "2018-8-01",
+                    "count": "1"
+                },
+                {
+                    "date": "2018-03-01",
+                    "count": "4"
+                }
+            ]
+        }
+
+    ]
+    
+}

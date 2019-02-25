@@ -1,0 +1,41 @@
+.navbar{
+    padding: 20px 0px;
+}
+.navbar-brand{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.navbar-brand img{
+    width: 7em;
+}
+.navbar-light .navbar-toggler{
+    border-color:transparent !important;
+}
+.nav-item{
+    padding-left: 10px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none !important;
+}
+.navbar-toggler-icon{
+    color:#000;
+}
+.navbar-toggler-icon i{
+    font-size:1.7em;
+}
+@media only screen and (max-width:1100px) {
+    .nav-item{
+        margin-left: 0px;
+    }
+    .nav-item .btn {
+      display: block;
+      width:100%;
+      margin-bottom: 5px;
+    }
+    .navbar-expand-lg>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
