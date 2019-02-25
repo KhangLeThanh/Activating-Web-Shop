@@ -33,7 +33,6 @@ HeatMap Page
     * Fetching data from local fake json file 
     
 * Using react-router-dom for connecting 3 pages. 
-* Using linter and prettier for cleanning the code. 
 * Using react-calendar-heatmap . 
 * Using Bootstrap 4 and Google Material Design for creating structure layout, navigation
 * Adding essential buttons ( Log out) to make the interface complete   
