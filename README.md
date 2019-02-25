@@ -1,5 +1,42 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instruction
+* Website has 3 pages: Login Page, Profile Page, and Heatmap Page
+* Login page:
+    * Email: info@test.com
+    * Password: ok
+* Profile Page:
+    * Showing the user's info and list of activating web shops
+    * When user clicks a shop's name, the page which shows amount of customer visit for this shop will open.
+* Heatmap Page:
+    * Showing an activity of user from 2017-12-31 to 2018-12-31
+* Website has 2 essential button:
+    * "Log out" ( not working): click to log out from the system
+    * "Profile": click to go back to account's profile page            
 
+
+
+## Pages and navigation
+Login Page
+
+Profile Page
+
+HeatMap Page 
+
+
+## Pages and navigation
+
+* Login Page:
+    * Email: info@test.com
+    * Password: ok
+
+* Profile Page - HeatMap Page
+    * Fetching data from local fake json file 
+    
+* Using react-router-dom for connecting 3 pages. 
+* Using linter and prettier for cleanning the code. 
+* Using react-calendar-heatmap . 
+* Using Bootstrap 4 and Google Material Design for creating structure layout, navigation
+* Adding essential buttons ( Log out) to make the interface complete   
 ## Available Scripts
 
 In the project directory, you can run:
