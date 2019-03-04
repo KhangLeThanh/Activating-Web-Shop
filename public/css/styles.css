@@ -4,15 +4,14 @@
  * All of the styles in this file are optional and configurable!
  * The github and gitlab color scales are provided for reference.
  */
-
- .react-calendar-heatmap text {
+.space-text{
+  margin-left: 5px;
+}
+.react-calendar-heatmap text {
     font-size: 10px;
     fill: #aaa;
-  }
-.color-scale-1 { fill: #ffb699; }
-.color-scale-2 { fill: #ff9166; }
-.color-scale-3 { fill: #ff6d33; }
-.color-scale-4 { fill: #ff530d; }
+}
+
 .react-calendar-heatmap .react-calendar-heatmap-small-text {
     font-size: 5px;
 }
@@ -22,17 +21,25 @@
   stroke-width: 1px;
 }
 
-/*
-  * Default color scale
-  */
+/* Default color scale */
 
+.color-scale-empty { fill: #eeeeee; }  
+.color-scale-1 { fill: #ffb699; }
+.color-scale-2 { fill: #ff9166; }
+.color-scale-3 { fill: #ff6d33; }
+.color-scale-4 { fill: #ff530d; }
 .react-calendar-heatmap .color-empty {
   fill: #eeeeee;
 }
 
-.react-calendar-heatmap .color-filled {
-  fill: #8cc665;
+text.react-calendar-heatmap-weekday-label {
+  display: inline-block;
+  position: relative;
+  top: 1%;
+  left: 1%;
+  transform: translate(-1%,-1%);
 }
+
 svg.legend {
   margin-left: 5px;
 }
